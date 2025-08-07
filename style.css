@@ -348,13 +348,13 @@ span{
 }
 .services-container{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(1,1fr);
   align-items: center;
   gap: 2.5rem;
 }
 .service-box{
   background-color: var(--main-color);
-  height: 400px;
+  height: 300px;
   border-radius: 3rem;
   border: 5px solid transparent;
   cursor: pointer;
@@ -388,10 +388,18 @@ span{
   margin: auto;
 }
 .services-tech{
-  font-weight: bold;
-  font-size: 2rem;
-  margin-top: 4rem;
-  color: var(--bg-color);
+  display:  inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background: transparent;
+  border: 2px solid var(--bg-color);
+  font-size: 2.5rem;
+  border-radius: 50%;
+  color: #fff;
+  margin: 1rem 1.5rem 3rem 0;
+  transition: 0.3s ease-in-out;
 }
 .contact{
   padding: 100px 15px;
